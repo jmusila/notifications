@@ -1,5 +1,6 @@
 <?php
 
+use App\Events\FormSubmitted;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,5 +29,7 @@ Route::get('/sender', function () {
 
 
 Route::post('/sender', function () {
-    //This is the post method
+    
+    event(new FormSubmitted($text));
+
 });
