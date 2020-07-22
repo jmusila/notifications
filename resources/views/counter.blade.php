@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Pusher Test</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://js.pusher.com/6.0/pusher.min.js"></script>
   <script>
 
