@@ -25,3 +25,8 @@ Route::get('/counter', function () {
 Route::get('/sender', function () {
     return view('sender');
 });
+
+
+Route::post('/sender', function () {
+    //This is the post method
+});
