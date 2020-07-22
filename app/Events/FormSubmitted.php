@@ -35,4 +35,10 @@ class FormSubmitted implements ShouldBroadcast
     {
         return new Channel('my-channel');
     }
+
+    public function broadcastAs(){
+
+        return 'form-submited';
+        
+    }
 }
