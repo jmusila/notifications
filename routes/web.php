@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/counter', function () {
     return view('counter');
 });
+
+Route::get('/sender', function () {
+    return view('sender');
+});
