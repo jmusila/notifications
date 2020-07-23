@@ -9,8 +9,8 @@
     // Enable pusher logging - don't include this in production
     Pusher.logToConsole = true;
 
-    var pusher = new Pusher(process.env.PUSHER_APP_KEY, {
-      cluster: process.env.PUSHER_APP_CLUSTER
+    var pusher = new Pusher('cb302f2a5b82eba39735', {
+      cluster: 'eu'
     });
 
     var channel = pusher.subscribe('my-channel');
