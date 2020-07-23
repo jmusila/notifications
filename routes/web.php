@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use App\Events\FormSubmitted;
+use App\Events\StatusLiked;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,18 +21,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/counter', function () {
-    return view('counter');
-});
-
-Route::get('/sender', function () {
-    return view('sender');
-});
-
-
-Route::post('/sender', function (Request $request) {
-    
-    $text = $request->content;
-    event(new FormSubmitted($text));
-
-});
+Route::get('/test', 'StatusLikedController@likeStatus');
