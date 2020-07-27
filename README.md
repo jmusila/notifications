@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/646dc986dd087ed81498/maintainability)](https://codeclimate.com/github/jonathanmusila/notifications/maintainability)
+
 # Push notifications using pusher
 
 ### cloning and running the application
