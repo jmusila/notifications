@@ -1,4 +1,4 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/646dc986dd087ed81498/maintainability)](https://codeclimate.com/github/jonathanmusila/notifications/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/646dc986dd087ed81498/maintainability)](https://codeclimate.com/github/jonathanmusila/notifications/maintainability) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Push notifications using pusher
 
